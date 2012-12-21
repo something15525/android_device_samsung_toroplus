@@ -34,6 +34,7 @@ $(call inherit-product, device/samsung/toroplus/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_toroplus
 PRODUCT_DEVICE := toroplus
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Toroplus
-PRODUCT_RESTRICT_VENDOR_FILES := true
+PRODUCT_BRAND := Google
+PRODUCT_MODEL := Galaxy Nexus
+PRODUCT_MANUFACTURER := Samsung
+PRODUCT_RESTRICT_VENDOR_FILES := false
